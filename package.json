@@ -1,0 +1,38 @@
+{
+  "name" : "passport-eventbrite-oauth",
+  "version" : "0.1.0",
+  "description" : "EventBrite (OAuth2) authentication strategies for Passport.",
+  "keywords" : ["passport", "eventbrite", "auth", "authn", "authentication", "identity"],
+  "repository" : {
+    "type" : "git",
+    "url" : "git://github.com/venkatperi/passport-eventbrite-oauth.git"
+  },
+  "bugs" : {
+    "url" : "http://github.com/venkatperi/passport-eventbrite-oauth/issues"
+  },
+  "author" : {
+    "name" : "Venkat Peri",
+    "email" : "venkatperi@gmail.com",
+    "url" : "http://www.vperi.com/"
+  },
+  "licenses" : [
+    {
+      "type" : "MIT",
+      "url" : "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main" : "./lib/passport-eventbrite-oauth",
+  "dependencies" : {
+    "pkginfo" : "0.2.x",
+    "passport-oauth" : "~0.1.4"
+  },
+  "devDependencies" : {
+    "vows" : "0.6.x"
+  },
+  "scripts" : {
+    "test" : "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
+  },
+  "engines" : {
+    "node" : ">= 0.4.0"
+  }
+}
